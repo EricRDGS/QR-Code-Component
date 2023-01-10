@@ -1,0 +1,10 @@
+@media(max-width: 375px){
+    .main .section{
+        margin: 30px;
+        height: 510px;
+    }
+
+    .main .section .qr-code-image{
+        width: 270px;
+    }
+}

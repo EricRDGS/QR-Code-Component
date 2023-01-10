@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 100%;
+    background-color: var(--grayish);
+}
+
+.main .section{
+    width: 350px;
+    height: 550px;
+    margin-top: 20px;
+    border-radius: 14px;
+    background-color: #ffffff;
+    box-shadow: 0.5px 1.5px 4px #000;
+}
+
+.main .section .qr-code-image{
+    width: 320px;
+    margin: 15px 0 0 15px;
+    border-radius: 14px;
+    border: 1px solid #000;
+}
+
+.main .section .info{
+    padding: 20px 26px;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.main .section .info .text{
+    margin-top: 20px;
+}
